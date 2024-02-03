@@ -53,7 +53,7 @@ jobs:
           testMode: ${{ matrix.testMode }}
           checkName: ${{ matrix.testMode }} test results
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          unityVersion: ${{ matric.unityVersion }}
+          unityVersion: ${{ matrix.unityVersion }}
 
       - uses: actions/upload-artifact@v3
         with:
