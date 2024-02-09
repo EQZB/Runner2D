@@ -1,5 +1,6 @@
 name: GameCI Template 🎮
 
+
 on:
   push:
     branches:
