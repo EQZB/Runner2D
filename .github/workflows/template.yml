@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - master
-      - !EQ-branch
+      - '!EQ-branch'
 
 jobs:
   testRunner:
